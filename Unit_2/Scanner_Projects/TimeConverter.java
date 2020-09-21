@@ -1,4 +1,4 @@
-package Unit_2.Projects;
+package Unit_2.Scanner_Projects;
 import java.util.Scanner;
 
 public class TimeConverter {
