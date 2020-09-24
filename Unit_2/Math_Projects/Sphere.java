@@ -10,7 +10,7 @@ public class Sphere {
         double radius = scan.nextFloat();
         String volume = String.format("%.4f",Math.pow(radius, 3) * Math.PI * 4/3);
         String SurfaceArea = String.format("%.4f",Math.pow(radius, 2) * Math.PI * 4);
-        System.out.println(volume + "\n" + SurfaceArea);
+        System.out.println("Volume: " + volume + "\n" + "Surface Area: " + SurfaceArea);
         scan.close();
     }
 }
