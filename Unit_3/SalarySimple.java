@@ -12,7 +12,6 @@ public class SalarySimple {
         // Move scanner head one line ahead.
         scan.nextLine();
         System.out.println("Enter the performance rating (Excellent, Good, or Poor): ");
-        // Sanitize input so it's compatible with dictionary key pair.
         rating = scan.nextLine().toLowerCase();
         if (rating.equals("excellent")){
             raise = currentSalary * .06;
