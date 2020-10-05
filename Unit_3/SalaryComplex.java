@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class Salary {
+public class SalaryComplex {
     public static void main(String args[]){
         // Initialize a key:dict pair so that scalability is easy.
         Map<String, Double> dictionary = new HashMap<String, Double>();
