@@ -1,6 +1,6 @@
 package Unit_3.ProgrammingProjectsPart1;
 
-public class Counter{
+public class NewCounter{
     public static void main (String[] args){
         final int LIMIT = 5;
         int count = 1;
