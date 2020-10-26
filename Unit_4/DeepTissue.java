@@ -1,12 +1,7 @@
 package Unit_4;
-
-
 public class DeepTissue {
     public static class Tissue{
         private int count = 0;
-        public Tissue(){
-
-        }
         public String greeting(String name){
             count++;
             return "Welcome " + name + "! You are visitor #" + count+".";
