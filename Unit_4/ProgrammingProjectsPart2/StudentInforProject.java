@@ -3,34 +3,53 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class StudentInforProject {
+    public class Address{
+        private String streetAddress, city, state;
+        private int zipCode;
+        //-----------------------------------------------------------------
+        // Sets up this Address object with the specified data.
+        //-----------------------------------------------------------------
+        public Address (String street, String town, String st, int zip){
+            streetAddress = street;
+            city = town;
+            state = st;
+            zipCode = zip;
+        }
+        //-----------------------------------------------------------------
+        // Returns this Address object as a string.
+        //-----------------------------------------------------------------
+        public String toString(){
+            String result;
+            result = streetAddress + "\n";
+            result += city + ", " + state + " " + zipCode;
+            return result;
+        }
+    }
     public static class Student{
-        // Initialize base variables.
-        private String name;
-        private int[] testScores = new int[3];
-        // Create a Scanner variable for each Student Object.
-        // If a student is created, use the provided studentname to set its name.
-        public Student(String studentName){
-            name = studentName;
+        private String firstName, lastName;
+        private Address homeAddress, schoolAddress;
+        //-----------------------------------------------------------------
+        // Sets up this Student object with the specified initial values.
+        //-----------------------------------------------------------------
+        public Student (String first, String last, Address home,
+        Address school){
+            firstName = first;
+            lastName = last;
+            homeAddress = home;
+            schoolAddress = school;
         }
-        // When this is called, ask for scores.
-        public void inputGrades(int test_number,int score){
-            System.out.println("Please input the grade one score for " + name);
-            testScores[test_number-1] = score;
-        }
-        // Get the average and reuturn it as a double.
-        public double average(){
-            return Arrays.stream(testScores).sum()/testScores.length;
-        }
-        // Return the student's name as a String.
-        public String getName(){
-            return name;
+        //-----------------------------------------------------------------
+        // Returns this Student object as a string.
+        //-----------------------------------------------------------------
+        public String toString(){
+            String result;
+            result = firstName + " " + lastName + "\n";
+            result += "Home Address:\n" + homeAddress + "\n";
+            result += "School Address:\n" + schoolAddress;
+            return result;
         }
     }
     public static void main(String args[]){
-        Student person = new Student("Jerry");
-        person.inputGrades(1,90);
-        person.inputGrades(2,95);
-        person.inputGrades(3,100);
-        System.out.println("Average: "+person.average());
+        
     }
 }
