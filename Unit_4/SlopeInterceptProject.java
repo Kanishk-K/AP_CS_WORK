@@ -1,5 +1,22 @@
-package Unit_4;
+/*
+ █████╗ ████████╗████████╗███████╗███╗   ██╗████████╗██╗ ██████╗ ███╗   ██╗
+██╔══██╗╚══██╔══╝╚══██╔══╝██╔════╝████╗  ██║╚══██╔══╝██║██╔═══██╗████╗  ██║
+███████║   ██║      ██║   █████╗  ██╔██╗ ██║   ██║   ██║██║   ██║██╔██╗ ██║
+██╔══██║   ██║      ██║   ██╔══╝  ██║╚██╗██║   ██║   ██║██║   ██║██║╚██╗██║
+██║  ██║   ██║      ██║   ███████╗██║ ╚████║   ██║   ██║╚██████╔╝██║ ╚████║
+╚═╝  ╚═╝   ╚═╝      ╚═╝   ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
 
+- So it seems that this repository for classwork has gotten a lot more attention than I anticipated.
+
+- There are more people accessing my code than I've given access to meaning that it's being shared around.
+
+- I'm fine with this just let me know that you're sharing it with someone so I can keep track to how big this is.
+
+- Also if you do plan on using any code from here at least make some changes in variable names/method names(when applicable)
+or logic for pretty obvious reasons.
+
+*/
+package Unit_4;
 public class SlopeInterceptProject {
     public static class Rational{
         private int numerator, denominator;
