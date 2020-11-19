@@ -4,7 +4,7 @@ This is a repository (essentially an online storage like Google Drive) that host
 ## Ground Rules
  - Let me know before you share this repository, I don't need to know who you're sharing it to, just let me know that you are. 
 
- - If you are planning to use my code make a few changes to variable names, method names, or logic (where applicaple) for obvious reasons.
+ - If you are planning to use my code make a few changes to variable names, method names, or logic (where applicable) for obvious reasons.
  
  - If you have questions about my code, let me know I try to explain my logic through comments and if it's not clear I'll work towards making it more understandable.
 
@@ -49,4 +49,4 @@ This is a repository (essentially an online storage like Google Drive) that host
         final int VARIABLENAME = 5;
         ```
 
-*Last updated 11/19/2020 4:47 PM CDT*
+*Last updated 11/19/2020 4:49 PM CDT*
