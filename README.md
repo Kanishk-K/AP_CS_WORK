@@ -1,5 +1,5 @@
 # AP Computer Science 2020-2021 Projects
-This is a repository (essentially an online storage like Google Drive) that hosts the code for projects and assignments.
+This is a repository (essentially an online storage like Google Drive) that hosts the code for projects and assignments. It's connected to my computer so as I finish projects they'll be uploaded here, you can see when it was last modified on the right side of the file.
 
 ## Ground Rules
  - Let me know before you share this repository, I don't need to know who you're sharing it to, just let me know that you are. 
@@ -49,4 +49,4 @@ This is a repository (essentially an online storage like Google Drive) that host
         final int VARIABLENAME = 5;
         ```
 
-*Last updated 11/19/2020 4:44 PM CDT*
+*Last updated 11/19/2020 4:47 PM CDT*
