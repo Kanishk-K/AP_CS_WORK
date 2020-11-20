@@ -17,7 +17,7 @@ This is a repository (essentially an online storage like Google Drive) that host
  ### Variable/Method Naming
  - Generally I follow [Oracle's Naming Convention](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html) for projects. However, I do primarly program in Python and so I may naturally lean over into [PEP 8](https://www.python.org/dev/peps/pep-0008/) styling. Both are fairly similar so it shouldn't be too obvious.
 
- - Functions/Methods will be arranged with same line opening bracket rather than Mr. Tollefson's preference of seperate line opening bracket.
+ - Functions/Methods will be arranged with same line opening bracket rather than Mr. Swanson's preference of seperate line opening bracket.
     - ```java
         public static void main(String args[]){
             // This is how I do it, because it's just nicer.
