@@ -32,7 +32,7 @@ This is a repository (essentially an online storage like Google Drive) that host
     - ```java
         public static void main(String args[])
         {
-            // This is how Tollefson does it. Room for error
+            // This is how Swanson does it. Room for error
             if (x == y)
                 // Code
             else
@@ -49,4 +49,4 @@ This is a repository (essentially an online storage like Google Drive) that host
         final int VARIABLENAME = 5;
         ```
 
-*Last updated 11/19/2020 4:52 PM CDT*
+*Last updated 11/19/2020 9:08 PM CDT*
