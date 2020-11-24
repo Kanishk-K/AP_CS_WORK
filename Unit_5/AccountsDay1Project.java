@@ -96,7 +96,13 @@ public class AccountsDay1Project {
             that the accounts don't have the same number.
             */
             if (acc1.getName().equals(acc2.getName()) && acc1.getAccountNumber() != acc2.getAccountNumber()){
-                return new Account(acc1.getBalance()+acc2.getBalance(),acc1.getName(),acc1.getAccountNumber());
+                double acc1Bal = acc1.getBalance();
+                double acc2Bal = acc2.getBalance();
+                String acc1Name = acc1.getName();
+                int acc1Number = acc1.getAccountNumber();
+                acc1.close();
+                acc2.close();
+                return new Account(acc1Bal+acc2Bal,acc1Name,acc1Number);
             }
             else{
                 /*
