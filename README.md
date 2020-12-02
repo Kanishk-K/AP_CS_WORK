@@ -2,9 +2,11 @@
 This is a repository (essentially an online storage like Google Drive) that hosts the code for projects and assignments. It's connected to my computer so as I finish projects they'll be uploaded here, you can see when it was last modified on the right side of the file.
 
 ## Ground Rules
+ - I really shouldn't have to say this but seriously, don't plagiarize my code. I know who you are and I'm willing to make this entire repository private if this becomes an issue. This is to be used as a reference, place to check your code, or perhaps learn a new perspective to tackle coding logic. Don't make me take this repository down because you decided to make a poor decision.
+
  - Let me know before you share this repository, I don't need to know who you're sharing it to, just let me know that you are. 
 
- - If you are planning to use my code make a few changes to variable names, method names, or logic (where applicable) for obvious reasons.
+ - If you are planning to use ANY of my code make a few changes to variable names, method names, or logic (where applicable) for obvious reasons.
  
  - If you have questions about my code let me know. I try to explain my logic through comments and if it's not clear I'll work towards making it more understandable.
 
@@ -49,4 +51,4 @@ This is a repository (essentially an online storage like Google Drive) that host
         final int VARIABLENAME = 5;
         ```
 
-*Last updated 11/19/2020 9:08 PM CDT*
+*Last updated 12/2/2020 3:57 PM CDT*
