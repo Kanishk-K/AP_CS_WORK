@@ -155,7 +155,6 @@ public class TunesProject {
             report += "Total cost: " + fmt.format(totalCost) + "\n";
             report += "Average cost: " + fmt.format(totalCost/count);
             report += "\n\nCD List:\n\n";
-            // This was litterally all I added and it worked.
             Sorts.insertionSort(collection, count);
             for (int cd = 0; cd < count; cd++){
                 report += collection[cd].toString() + "\n";
