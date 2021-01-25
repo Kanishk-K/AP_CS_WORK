@@ -21,14 +21,31 @@ public class SeatingChartProject {
         private Student [][] chart;
         public SeatingChart(ArrayList<Student> list,int row, int col){
             chart = new Student [row][col];
+            /*
+            This will iterate through a list and allow me to peek at values
+            through an array, an implementation could be done manually, however,
+            this library offers faster processing as it operates closer to
+            machine level.
+            */
             Iterator<Student> iterator = list.iterator();
+            /*
+            The integer here is used as an index, if a value
+            exists ahead, then it will continue.
+            */
             for (int i=0;iterator.hasNext();i++){
+                /*
+                i divided by number of columns will give
+                which column it is present in. i modulo column
+                will give row. [12/6][12%6] -> [2][0]
+                or [13/6][13%6] -> [2][1]
+                */
                 chart [i/col][i%col] = iterator.next();
             }
         }
         public void printChart(){
             for (int i=0;i<chart.length;i++){
                 for (int j=0;j<chart[i].length;j++){
+                    // If nothing exists in that location, skip over it.
                     if (chart[i][j] != null){
                         System.out.print(chart[i][j].getName() + "\t");
                     }
@@ -40,6 +57,7 @@ public class SeatingChartProject {
             int count = 0;
             for (int i=0;i<chart.length;i++){
                 for (int j=0;j<chart[i].length;j++){
+                    // Ensure we don't recieve a null-pointer exception.
                     if (chart[i][j] != null){
                         if (chart[i][j].getAbsenceCount() > allowedAbsences){
                             chart[i][j] = null;
