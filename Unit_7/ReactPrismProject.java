@@ -1,6 +1,6 @@
 package Unit_7;
 
-public class ReactPrism {
+public class ReactPrismProject {
     public static class Rectangle {
         private double length;
         private double width;
