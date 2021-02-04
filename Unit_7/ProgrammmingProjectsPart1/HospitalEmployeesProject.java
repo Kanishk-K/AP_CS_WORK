@@ -17,52 +17,82 @@ public class HospitalEmployeesProject {
             return lName;
         }
     }
-    public static class Doctor extends Hospital{
-        public Doctor(String f,String l){
+    public static class Employee extends Hospital{
+        private int number;
+        public Employee(String f, String l, int number){
             super(f,l);
+            this.number = number;
+        }
+    }
+    public static class Patient extends Hospital{
+        private String diagnosis;
+        public Patient(String f, String l, String diagnosis){
+            super(f,l);
+            this.diagnosis = diagnosis;
+        }
+    }
+    public static class Doctor extends Employee{
+        public Doctor(String f,String l,int number){
+            super(f,l,number);
         }
         public String performCheckup(){
             return getFName() + " " + getLName() + " is diagnosing some patients!";
         }
     }
-    public static class Nurse extends Hospital{
-        public Nurse(String f,String l){
-            super(f,l);
+    public static class Nurse extends Employee{
+        public Nurse(String f,String l, int number){
+            super(f,l,number);
         }
         public String performMedicine(){
             return getFName() + " " + getLName() + " is handing out medicine!";
         }
     }
-    public static class Administrator extends Hospital{
-        public Administrator(String f,String l){
-            super(f,l);
+    public static class Administrator extends Employee{
+        public Administrator(String f,String l, int number){
+            super(f,l,number);
         }
         public String performManagement(){
             return getFName() + " " + getLName() + " is managing things!";
         }
     }
-    public static class Surgeon extends Hospital{
-        public Surgeon(String f,String l){
-            super(f,l);
+    public static class Surgeon extends Doctor{
+        public Surgeon(String f,String l,int number){
+            super(f,l,number);
         }
         public String performSurgery(){
             return getFName() + " " + getLName() + " is doing some surgery!";
         }
     }
-    public static class Receptionist extends Hospital{
-        public Receptionist(String f,String l){
-            super(f,l);
+    public static class Receptionist extends Administrator{
+        public Receptionist(String f,String l, int number){
+            super(f,l,number);
         }
         public String performReception(){
             return getFName() + " " + getLName() + " is helping some patients!";
         }
     }
-    public static class Janitor extends Hospital{
-        public Janitor(String f,String l){
-            super(f,l);
+    public static class Janitor extends Administrator{
+        public Janitor(String f,String l, int number){
+            super(f,l,number);
         }
         public String performSurgery(){
             return getFName() + " " + getLName() + " is cleaning the Hospital!";
+        }
+    }
+    public static class Admitted extends Patient{
+        public Admitted(String f, String l, String diagnosis){
+            super(f,l,diagnosis);
+        }
+        public String identify(){
+            return getFName() +  " " + getLName() + " is currently suffering from " + super.diagnosis + ".";
+        }
+    }
+    public static class Discharged extends Patient{
+        public Discharged(String f, String l, String diagnosis){
+            super(f,l,diagnosis);
+        }
+        public String identify(){
+            return getFName() +  " " + getLName() + " was suffering from " + super.diagnosis + ".";
         }
     }
     /*
@@ -82,11 +112,13 @@ public class HospitalEmployeesProject {
         return new String(name);
     }
     public static void main(String args[]){
-        System.out.println(new Doctor(randomString(),randomString()).performCheckup());
-        System.out.println(new Nurse(randomString(),randomString()).performMedicine());
-        System.out.println(new Administrator(randomString(),randomString()).performManagement());
-        System.out.println(new Surgeon(randomString(),randomString()).performSurgery());
-        System.out.println(new Receptionist(randomString(),randomString()).performReception());
-        System.out.println(new Janitor(randomString(),randomString()).performSurgery());
+        System.out.println(new Doctor(randomString(),randomString(),1).performCheckup());
+        System.out.println(new Nurse(randomString(),randomString(),2).performMedicine());
+        System.out.println(new Administrator(randomString(),randomString(),3).performManagement());
+        System.out.println(new Surgeon(randomString(),randomString(),4).performSurgery());
+        System.out.println(new Receptionist(randomString(),randomString(),5).performReception());
+        System.out.println(new Janitor(randomString(),randomString(),6).performSurgery());
+        System.out.println(new Admitted(randomString(),randomString(),"being weird").identify());
+        System.out.println(new Discharged(randomString(),randomString(),"lack of creativity").identify());
     }
 }
