@@ -1,6 +1,5 @@
 package Unit_8;
 import java.util.ArrayList;
-
 public class WordPairListProject {
     public static class WordPair {
         private String p1;
