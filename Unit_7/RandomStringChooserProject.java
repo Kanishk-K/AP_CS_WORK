@@ -1,4 +1,3 @@
-package Unit_7;
 import java.util.ArrayList;
 
 public class RandomStringChooserProject {

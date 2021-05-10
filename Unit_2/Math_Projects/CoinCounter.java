@@ -1,4 +1,3 @@
-package Unit_2.Math_Projects;
 import java.util.Scanner;
 
 public class CoinCounter {

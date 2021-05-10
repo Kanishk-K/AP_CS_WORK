@@ -1,4 +1,3 @@
-package Unit_8;
 
 public class HiddenWordProject {
     public static class  HiddenWord{

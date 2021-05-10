@@ -1,4 +1,3 @@
-package Unit_4.ProgrammingProjectsPart2;
 import java.util.Scanner;
 import java.util.Arrays;
 

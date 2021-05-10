@@ -1,4 +1,3 @@
-package Unit_6.ProgrammingProjects1;
 import java.util.Scanner;
 
 public class FrequencyTableProject2 {

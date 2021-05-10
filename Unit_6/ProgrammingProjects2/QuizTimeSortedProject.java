@@ -1,4 +1,3 @@
-package Unit_6.ProgrammingProjects2;
 import java.lang.Comparable;
 import java.util.Scanner;
 

@@ -1,4 +1,3 @@
-package Unit_6;
 
 public class MagicSquareProject {
     public static class Square {

@@ -1,4 +1,3 @@
-package Challenge_Problems_From_Swanson;
 import java.util.Hashtable;
 import java.lang.Comparable;
 

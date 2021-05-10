@@ -1,4 +1,3 @@
-package Unit_7.ProgrammmingProjectsPart1;
 import java.lang.Math;
 import java.util.Arrays;
 

@@ -16,7 +16,6 @@
 or logic for pretty obvious reasons.
 
 */
-package Unit_5;
 public class AccountsDay1Project {
     public static class Account {
         // Swanson's Variables

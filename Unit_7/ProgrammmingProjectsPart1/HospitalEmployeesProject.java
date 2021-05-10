@@ -1,4 +1,3 @@
-package Unit_7.ProgrammmingProjectsPart1;
 
 public class HospitalEmployeesProject {
     public static class Hospital {

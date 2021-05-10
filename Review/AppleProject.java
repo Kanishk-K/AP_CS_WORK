@@ -1,5 +1,3 @@
-package Review;
-
 public class AppleProject {
     public static class AppleBagger {
         public static double getApple(){

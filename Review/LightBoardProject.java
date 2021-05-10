@@ -1,4 +1,3 @@
-package Review;
 import java.lang.Math;
 public class LightBoardProject {
     public static class LightBoard {

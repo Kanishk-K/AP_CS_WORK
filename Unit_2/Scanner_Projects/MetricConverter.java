@@ -1,4 +1,3 @@
-package Unit_2.Scanner_Projects;
 import java.util.Scanner;
 
 public class MetricConverter {

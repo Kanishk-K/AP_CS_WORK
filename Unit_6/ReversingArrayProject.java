@@ -1,4 +1,3 @@
-package Unit_6;
 import java.lang.Math;
 
 public class ReversingArrayProject {

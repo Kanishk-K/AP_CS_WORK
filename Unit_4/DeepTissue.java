@@ -1,4 +1,3 @@
-package Unit_4;
 public class DeepTissue {
     // I'm not making another file, you can't make me Mr. Swanson.
     public static class Tissue{

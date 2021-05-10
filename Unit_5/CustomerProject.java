@@ -16,7 +16,6 @@
 or logic for pretty obvious reasons.
 
 */
-package Unit_5;
 public class CustomerProject {
     public static class Customer{
         private static int nextAccNum = 1;

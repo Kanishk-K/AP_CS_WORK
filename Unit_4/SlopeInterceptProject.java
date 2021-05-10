@@ -16,7 +16,6 @@
 or logic for pretty obvious reasons.
 
 */
-package Unit_4;
 public class SlopeInterceptProject {
     public static class Rational{
         private int numerator, denominator;

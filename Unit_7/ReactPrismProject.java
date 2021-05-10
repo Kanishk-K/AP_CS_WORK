@@ -1,4 +1,3 @@
-package Unit_7;
 
 public class ReactPrismProject {
     public static class Rectangle {

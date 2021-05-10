@@ -16,7 +16,6 @@
 or logic for pretty obvious reasons.
 
 */
-package Unit_5;
 public class RectangleProject {
     public static class Rectangle{
         private int width,height;

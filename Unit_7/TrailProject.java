@@ -1,4 +1,3 @@
-package Unit_7;
 
 public class TrailProject {
     public static class Trail {

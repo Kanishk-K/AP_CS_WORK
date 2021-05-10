@@ -1,5 +1,3 @@
-package Review;
-
 public class InviteProject {
     public static class Invitation{
         private String hostName;

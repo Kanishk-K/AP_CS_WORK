@@ -1,4 +1,3 @@
-package Unit_6.ProgrammingProjects1;
 import java.text.NumberFormat;
 public class BankProject {
     public static class Account{

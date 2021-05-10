@@ -1,4 +1,3 @@
-package Review;
 public class PhraseProject {
     public static class Phrase {
         private String currentPhrase;

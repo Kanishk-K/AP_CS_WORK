@@ -1,4 +1,3 @@
-package Unit_2;
 
 public class Stringliteral {
     public static void main(String args[]){

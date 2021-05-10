@@ -1,4 +1,3 @@
-package Unit_4;
 import java.util.Scanner;
 public class TrackingGrades {
     public static class Student{

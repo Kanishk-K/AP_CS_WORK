@@ -1,4 +1,3 @@
-package Unit_3.ProgrammingProjectsPart1;
 
 public class NewCounter{
     public static void main (String[] args){

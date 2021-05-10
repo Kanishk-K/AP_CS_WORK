@@ -16,7 +16,6 @@
 or logic for pretty obvious reasons.
 
 */
-package Unit_5;
 public class CityProject{
     public static class City{
         private String cityName;

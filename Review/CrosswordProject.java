@@ -1,4 +1,3 @@
-package Review;
 public class CrosswordProject {
     public static class Crossword {
         private Square [][] puzzle;

@@ -1,4 +1,3 @@
-package Unit_7.ProgrammingProjectsPart2;
 
 public class SportTrackerProject {
     public static class Sport{

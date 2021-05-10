@@ -1,4 +1,3 @@
-package Unit_3.ProgrammingProjectsPart1;
 import java.util.Scanner;
 
 public class DigitAnalyzer {

@@ -1,4 +1,3 @@
-package Unit_2;
 
 public class Hundred_Digit {
     public static void main(String args[]){

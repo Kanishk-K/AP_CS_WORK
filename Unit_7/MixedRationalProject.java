@@ -1,4 +1,3 @@
-package Unit_7;
 
 public class MixedRationalProject {
     public static class Rational {
