@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "Unit_8",
         "Unit_7/ProgrammmingProjectsPart1",
         "Unit_7/ProgrammingProjectsPart2",
         "Unit_7",
@@ -17,6 +18,6 @@
         "Unit_2",
         "Review",
         "Challenge_Problems_From_Swanson",
-        "Unit_8"
+        "Data_Structures/LinkedLists"
     ]
 }
